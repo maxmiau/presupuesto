@@ -1,10 +1,15 @@
 import React from 'react';
+import Pregunta from './componets/Pregunta';
 
 
 function App() {
   return (
     <div className="container">
-      <header>Gasto semanal</header>
+      <h1>Gasto semanal</h1>
+
+      <div className="contenido-principal contenido">
+        <Pregunta />
+      </div>
     </div>
   );
 }
