@@ -5,7 +5,7 @@ import Pregunta from './componets/Pregunta';
 function App() {
   return (
     <div className="container">
-      <h1>Gasto semanal</h1>
+      <h1>Gasto semanal 1</h1>
 
       <div className="contenido-principal contenido">
         <Pregunta />
